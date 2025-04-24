@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    background-color: lightgray;
+    text-align: center;
+    font-size: 25px;
+    padding: 10px;
+                               
+}
+
+nav a{
+    text-decoration: double;
+    display: inline-block;
+    color: black;
+    margin: 40px;
+    padding: 5px 15px;
+    border-radius: 10px;
+}
+
+nav a:hover{
+    background-color: bisque;
+    color: burlywood;
+}
+
+#contenedor{
+    background-image: url(dd46b493df33-gato-tosiendo-z.avif);
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}   
+
+#contenedor p{
+    font-size: 30px;
+    padding: 20px 0;
+    border-radius: 15px;
+    background-color: white;
+    color: black;
+    margin: 10px 20px;
+    padding: 5px 15px ;
+    font-weight: bold;
+    font-size: 30px;
+}
+#contenedor h1{
+    font-size: 50px;
+    padding: 10px 10px
+    
+}
+
+main{
+    display: grid;
+    grid-template-columns: 40% 50% 10%;
+    grid-row: 60% 40%;
+}
+.box{
+    border: solid 5px orange;
+    width: auto;
+    height: auto; 
+    padding: 10px 10px;
+    margin: 10px 10px;
+}
+
+.box1{
+    border: solid 5px orange;
+    width: auto;
+    height: auto; 
+    padding: 10px 10px;
+    margin: 10px 10px;
+   
+}
+
+.box h3{
+    text-align: center;
+}
+
+.caja{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.caja div h5{
+    text-align: center;
+}
